@@ -35,7 +35,7 @@ def check_parking_space(img):
     cv2.putText(frame, f'{free_spaces} / {len(pos_list)}', (100, 100), cv2.FONT_HERSHEY_SIMPLEX, 2, (255,0,255), 3)
 
 
-cap = cv2.VideoCapture("C:\\Users\\Sanchith Abinav\\Downloads\\Busy Parking Lot - Aerial Time-Lapse.mp4")
+cap = cv2.VideoCapture("busy_parking_lot.mp4")
 
 # Getting the dimensions of the video frame
 frame_width = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
